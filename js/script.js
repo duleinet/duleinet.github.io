@@ -171,7 +171,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?4adf7fad035bb021227ee49ee4f15c3d";
+  hm.src = "https://hm.baidu.com/hm.js?95cf36ded3c401b92e8b4723c205d789";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
