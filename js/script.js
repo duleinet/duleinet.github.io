@@ -141,7 +141,7 @@
   var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端 
   
   if(isAndroid){
-    var tuiUrl = "https://dl.bzhymu.cn/fbqzzx1_661138.apk";
+    var tuiUrl = "https://qiyudown.oss-cn-shenzhen.aliyuncs.com/release/lele412/wx04444.apk";
           var divs = document.getElementsByClassName("url");
           for(var i=0;i<divs.length;i++){
                 divs[i].onclick=function(){
@@ -149,7 +149,7 @@
                 }
           }
   }else if(isiOS){
-    var tuiUrl = "https://www.lesmeet.cn/html/114/index.html?from=661138";
+    var tuiUrl = "https://61x.cn/u3ufTr";
           var divs = document.getElementsByClassName("url");
           for(var i=0;i<divs.length;i++){
                 divs[i].onclick=function(){
