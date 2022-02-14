@@ -135,35 +135,7 @@
 
     $container.removeClass('mobile-nav-on');
   });
-  //cps推广
-  var u = navigator.userAgent; 
-  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端 
-  var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端 
   
-  if(isAndroid){
-    var tuiUrl = "https://qiyudown.oss-cn-shenzhen.aliyuncs.com/release/lele412/wx04444.apk";
-          var divs = document.getElementsByClassName("url");
-          for(var i=0;i<divs.length;i++){
-                divs[i].onclick=function(){
-                  window.location.href= tuiUrl; 
-                }
-          }
-  }else if(isiOS){
-    var tuiUrl = "https://61x.cn/u3ufTr";
-          var divs = document.getElementsByClassName("url");
-          for(var i=0;i<divs.length;i++){
-                divs[i].onclick=function(){
-                  window.location.href= tuiUrl; 
-                }
-          }
-  }else{
-    var divs = document.getElementsByClassName("url");
-          for(var i=0;i<divs.length;i++){
-                divs[i].onclick=function(){
-        alert("请用手机浏览器访问下载")
-                }
-          }
-  }
 
 
 })(jQuery);
@@ -171,7 +143,7 @@
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?95cf36ded3c401b92e8b4723c205d789";
+  hm.src = "https://hm.baidu.com/hm.js?4adf7fad035bb021227ee49ee4f15c3d";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
